@@ -8,3 +8,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((host, port))
     s.sendall(b'hello there')
     print("Server Response:" + str(s.recv(4096), 'utf-8'))
+    print("GGWP")
